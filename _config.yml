@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: War impact on Cinema
+title: WAR IMPACT ON CINEMA
 
 # Your name to show in the footer
 author: ADAvienne que pourra
@@ -24,6 +24,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+    - ADA website: "https://dlab.epfl.ch/teaching/fall2022/cs401/"
   #Author's home: "https://deanattali.com"
 
 ################
