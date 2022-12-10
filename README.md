@@ -1,8 +1,7 @@
-[site](https://xkrilandar.github.io/)
+Link for the [site](https://xkrilandar.github.io/)
 
 
 
-[![](https://i.imgur.com/zNBkzj1.png)](https://beautifuljekyll.com/plans/)
 
 # Beautiful Jekyll
 
