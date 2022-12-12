@@ -1,4 +1,8 @@
-> Link for the [site](https://xkrilandar.github.io/WarAndCinema/)
+# IMPACT OF WAR ON CINEMA 
+This is the github repo for the ADA project website.
+Our goal is to build a data story for the war impact on cinema.
+
+> The website demo is here : [site](https://xkrilandar.github.io/WarAndCinema/)
 
 
 
