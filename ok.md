@@ -4,6 +4,9 @@ title: War impact on cinema
 subtitle: Looking at wars trough the lens of cinema
 full-width: false
 ---
+
+<style>body {text-align: justify}</style>
+
 Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. What is the impact of war on film production? How does each country show the war? Or doesn't show it?
 
 ![]({{ 'assets/img/vietnamcamera.jpg' | relative_url }})
