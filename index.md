@@ -60,39 +60,44 @@ War : dominant category post war (1945-1950)
 Death : follow a little bit the war
 Family : dominant category pre war and during war (1937-1943) and re-pick post war.
 
+
+
+
+![Not found]({{ 'assets/img/topicgermany.png' | relative_url }})
+
 **In Italy :** 
 Love : dominant in 1935 fades after it…
 	Family very dominant prewar and during war, also post war
 	Death dominant during war
 	War not dominant, but peak in 1945
-
+![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
 **In Japan :**
 Family very dominant all the time
 Death dominant in 1935-1938, 1940-1943, 1947-1955.
 
-_In the Soviet Union : war dominant in early war._
-
-![Not found]({{ 'assets/img/topicgermany.png' | relative_url }})
-![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
 ![Not found]({{ 'assets/img/topicjapan.png' | relative_url }})
+
+_In the Soviet Union : war dominant in early war._
 
 #### Winner countries :
 
-**In France : **
+**In France :**
 Familiy : very dominant category, moslty in 1940 and post war (1945-1953)
 Death dominant in war period
+
+![Not found]({{ 'assets/img/topicfrance.png' | relative_url }})
 
 **In the United Kingdom :** 
 Family very dominant topic all the time
 Death overall dominant.
+
+![Not found]({{ 'assets/img/topicuk.png' | relative_url }})
 
 **In the United States of America :** 
 War dominant in 1943
 Family dominant all the time.
 Death dominant all the time.
 
-![Not found]({{ 'assets/img/topicfrance.png' | relative_url }})
-![Not found]({{ 'assets/img/topicuk.png' | relative_url }})
 ![Not found]({{ 'assets/img/topicusa.png' | relative_url }})
 
 
