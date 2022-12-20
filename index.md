@@ -36,34 +36,35 @@ Case Study : WW2
 
 ![Not found]({{ 'assets/img/debarquement.jpg' | relative_url }})
 
-TODO : GRAPHE SUR LES TOPICS
+# TODO : GRAPHE SUR LES TOPICS
+BLABLABLA
+BLABLABLA
+BLABLABLA
 
 {% include lda.html max-width="200px" %}
+BLABLABLA
+BLABLABLA
+BLABLABLA
 
-TODO : GRAPHE SUR SENTIMENT
-
-![Not found]({{ 'assets/img/winlose.png' | relative_url }})
-
+# Lets do sentiment analysis...
 During the period 1930-1955:
 
-Loser countries : 
+#### Loser countries : 
+![Not found]({{ 'assets/img/winlose1.png' | relative_url }})
 
-In Germany, we can observe a negative sentiment in the post war period (1946-1951). We can note that in 1939, at the beginning of the war, we find the most positive year for German movies. Perhaps this was to encourage soldiers to fight.
+In **Germany**, we can observe a negative sentiment in the post war period (1946-1951). We can note that in 1939, at the beginning of the war, we find the most positive year for German movies. Perhaps this was to encourage soldiers to fight.\\
+In **Italy**, we find a post war period that is very negative, (1945-1951) as in Germany. \\
+In **Japan**, the pre war period was positive (until 1936) and since then, it seems to be mostly negative.
 
-In Italy, we find a post war period that is very negative, (1945-1951) as in Germany. 
+#### Winner countries :
+![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
-In Japan, the pre war period was positive (until 1936) and since then, it seems to be mostly negative.
-
-Winner countries :
-
-In France, we can find a very positive year in 1945, the victory year.
-
-In the United Kingdom, we observe a negative period during the war (1939-1943) and another post war (1946-1952). These periods are cut by the 1945 year that comes very positive, as it is the victory year for the UK.
-
-In the USA, we see a clear threshold (1942, the year USA comes into the WW2 conflict), when all the movies carry a negative very negative sentiment. We can note a very negative year in 1939, the start of WW2. 
+In **France**, we can find a very positive year in 1945, the victory year.
+In the **United Kingdom**, we observe a negative period during the war (1939-1943) and another post war (1946-1952). These periods are cut by the 1945 year that comes very positive, as it is the victory year for the UK.
+In the **United States of America**, we see a clear threshold (1942, the year USA comes into the WW2 conflict), when all the movies carry a negative very negative sentiment. We can note a very negative year in 1939, the start of WW2. 
 
 
-TODO : GRAPHE SUR LA PRODUCTION DE FILMS
+# TODO : GRAPHE SUR LA PRODUCTION DE FILMS
 
 Case Study : Vietnam War
 ------------------------
