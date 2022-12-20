@@ -20,7 +20,7 @@ author: ADAvienne que pourra
 ###############################################
 
 navbar-links:
-  Click here: "404"
+  Click here: "ok"
   About Us: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
