@@ -2,7 +2,6 @@
 layout: home
 title: War impact on cinema
 subtitle: Looking at wars trough the lens of cinema
-full-width: false
 ---
 
 <style>body {text-align: justify}</style>
@@ -17,12 +16,9 @@ After wars are over, filmmakers may continue to produce war-themed films that ex
 
 ### War films in cinema...
 
-War films never had such a large share of film production as during World War II.
-
-**From 1939 to 1945 roughly 10 % of films were War Films.**
-
-Let's have a look on the proportion of war films over the years:
-
+War films never had such a large share of film production as during World War II.\\
+**From 1939 to 1945 roughly 10 % of films were War Films.**\\
+Let's have a look on the proportion of war films over the years:\\
 ![Not found]({{ 'assets/img/WarFilmsByYear.png' | relative_url }})
 
 To better illustrate the impact of war, we zoom on two wars: the World War II and the Vietnam War.
