@@ -34,27 +34,12 @@ full-width: false
 <img src="{{ 'assets/img/debarquement.jpg' | relative_url }}" alt="Not found" />
 
 <p>TODO : GRAPHE SUR LES TOPICS<p>
----
-full-width: true
----
-<div style="text-align: center;">
-  <style>
-    .included-content {
-      width: 800px;
-      height: 600px;
-    }
-  </style>
 
-  <div class="included-content">
-    {% include lda.html %}
-  </div>
-</div>
----
-full-width: false
----
 
- 
-  
+
+{% include lda.html max-width="200px" %}
+
+
 <p>TODO : GRAPHE SUR SENTIMENT<p>
 
 <p>TODO : GRAPHE SUR LA PRODUCTION DE FILMS<p>
