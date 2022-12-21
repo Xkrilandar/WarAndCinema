@@ -48,6 +48,14 @@ We can see here different behaviors for each country. A war takes a lot of resou
 
 This analysis is very surface level and depends on the movies in the dataset, we therefore need to take these observations with a grain of salt. To have more generalizable results that do n’t depend on the number of movies, but on the subjects in the movies we decided to do some topic analysis using LDA (Latent Dirichlet Allocation) for each country before, during and after the war. This didn’t produce any relevant information as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found this for all the USSR’s movies before the war:
 
+Here is LDA of America during the war:
+<div style="text-align: center;">
+{% include lda_american.html max-width="200px" %}
+</div>
+
+This is hard to read and to find actual relevant topics as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found for American movies during the war:
+
+
 ![Not found]({{ 'assets/img/main.jpg' | relative_url }})
 
 And for American movies during the war we found that each cluster was very unique and different:
@@ -59,21 +67,21 @@ And for American movies during the war we found that each cluster was very uniqu
 ![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
 
 
-We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
+We found that each cluster had a clear topic, here the first one is about cartoons with words like: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
 The second one is clearly about love and family with words like: “find”, “Love”, ”marriage”, “husband”, ”marry”, ”family” and ”meet”.\\
 The third one is clearly about war with words like: “kill”, ”German”, ”nazi”, ”Japanese”, ”death”, ”men” and ”captain”.
-:us: USA :us:
+
 We then did this analysis of topics for every cluster, for every country, before, during and after the war and got this: 
 
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:	|:-:	|:-:	|:-:	|
-|  :us: USA :us:  |   (Investigation,crime)<br>(love)<br>(<span style="color:blue">unclear</span>)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|  :de: GERMANY :de:  |   (<span style="color:red">Hitler,nationalism,Nazis</span>)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
-|  :fr: FRANCE :fr:   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
-|  :it: ITALY :it:  |   (love,war)<br>(<span style="color:blue">unclear</span>)   |   (soldiers,religion)<br>(Family,struggle) |   (<span style="color:red">WWII</span>)<br>(political conflict)<br>(love)(<span style="color:blue">unclear</span>) |
-|  :gb: UK :gb:  |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis,War</span>)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (<span style="color:red">WWII</span>)<br>(love)<br>(<span style="color:blue">unclear</span>) |
-|  :ru: USSR :ru:  |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
-|   :jp: JAPAN :jp:  |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
+|   USA   |   (Investigation,crime)<br>(love)<br>(<span style="color:blue">unclear</span>)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
+|   GERMANY  |   (<span style="color:red">Hitler,nationalism,Nazis</span>)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|   FRANCE    |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|   ITALY   |   (love,war)<br>(<span style="color:blue">unclear</span>)   |   (soldiers,religion)<br>(Family,struggle) |   (<span style="color:red">WWII</span>)<br>(political conflict)<br>(love)(<span style="color:blue">unclear</span>) |
+|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis,War</span>)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (<span style="color:red">WWII</span>)<br>(love)<br>(<span style="color:blue">unclear</span>) |
+|   USSR  |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|    JAPAN   |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
 
 \* Each cluster is in parenthesis\\
 \*\* Clusters that have too many different movies, where LDA cannot extract the topics are defined by (<span style="color:blue">unclear</span>)
