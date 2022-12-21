@@ -40,14 +40,19 @@ Case Study : WW2
 
 ## Lets do topic analysis
 -------------------------
-BLABLABLA
-BLABLABLA
-BLABLABLA
+
+![Not found]({{ 'assets/img/main.jpg' | relative_url }})
+
+![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
+
+![Not found]({{ 'assets/img/heart.jpg' | relative_url }})
+
+![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
+
+
 
 {% include lda.html max-width="200px" %}
-BLABLABLA
-BLABLABLA
-BLABLABLA
+
 
 #### Axis countries : 
 
