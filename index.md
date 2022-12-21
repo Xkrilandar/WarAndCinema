@@ -48,32 +48,30 @@ BLABLABLA
 BLABLABLA
 BLABLABLA
 BLABLABLA
-#### Loser countries : 
+
+#### Axis countries : 
 
 **In Germany:**\\
-Love : not dominant category, pick in 1942\\
-War : dominant category post war (1945-1950)\\
-Death : follow a little bit the war\\
-Family : dominant category pre war and during war (1937-1943) and re-pick post war
-
+**War, death and family are recurent topics in post-war produced films in germany**.\\
+During the war and pre-war it was mostly family that was a recurent topic.\\
+Love does not seem to be a recuring topic for german films.\\
 ![Not found]({{ 'assets/img/topicgermany.png' | relative_url }})
 
 **In Italy :** \\
-Love : dominant in 1935 fades after it…\\
-Family : very dominant prewar and during war, also post war\\
-Death : dominant during war\\
-War : not dominant, but peak in 1945
-	
+**Unsurprisingly, family is an important topic in Italy until the fall of fascism.**\\
+_The peaks in love and death topics in the pre-war period are most likely surepresentation due to low amount of films._
+Death is a more recurring topic for italian films during the war than it was for german films.\\
+On the other hand, war is a less recurring topic for italian films in the post-war period than it was for german films.\\
 ![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
+
 **In Japan :**\\
-Family very dominant all the time\\
-Death dominant in 1935-1938, 1940-1943, 1947-1955
+**The topic of family is an important topic even after the war in japanese films.**
+As for german films, love is not a recurring topic in japanese films.
 
 ![Not found]({{ 'assets/img/topicjapan.png' | relative_url }})
 
-_In the Soviet Union : war dominant in early war._
 
-#### Winner countries :
+#### Allies countries :
 
 **In France :**\\
 Familiy : very dominant category, moslty in 1940 and post war (1945-1953)\\
@@ -99,8 +97,7 @@ Death dominant all the time
 
 Lets do sentiment analysis...
 -----------------------------
-On the 1930-1955 period (we include the pre-war and post-war period)
-
+##### On the 1930-1955 period (we include the pre-war and post-war period)
 #### Axis countries : 
 For **Germany** produced films, we can observe that overall sentiment is **negative in the post-war period** (1946-1951). We can note that in 1939, has a a overall strong positive sentiment. Perhaps this is due to a large proportion of _propaganda_ films.\\
 For **Italy** produced films, we find a post-war period that has overall **negative** compound sentiment, (1945-1951) as in Germany. \\
