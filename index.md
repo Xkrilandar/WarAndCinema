@@ -94,7 +94,7 @@ The 10 years after the war, we can say that a larger variety of films come out, 
 
 
 <div style="text-align: center;">
-{% include lda.html max-width="200px" %}
+{% include lda_american.html max-width="200px" %}
 </div>
 
 War, death, family and love...
