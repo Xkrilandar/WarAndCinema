@@ -170,17 +170,17 @@ Also interesting is the fact that the general sentiment of films is a bit more _
 ![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
 
-<div class="your-class">
-  <div>![Not found]({{ 'assets/img/winlose2.png' | relative_url }})</div>
-  <div>![Not found]({{ 'assets/img/winlose1.png' | relative_url }})</div>
-  <div>![Not found]({{ 'assets/img/winlose2.png' | relative_url }})</div>
-</div>
-  
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
+<div class="slide1">
+  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
+  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
+  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
+</div>
+  
 <script type="text/javascript">
   $(document).ready(function(){
-    $('.your-class').slick();
+    $('.slide1').slick();
   });
 </script>
 
