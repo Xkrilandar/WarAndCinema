@@ -126,11 +126,12 @@ The [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War) was a military conf
 
 ![Not found]({{ 'assets/img/flower.jpeg' | relative_url }})
 
-TODO : GRAPHE SUR LES TOPICS
 
-TODO : GRAPHE SUR SENTIMENT
+The Vietnam War started on November 1st, 1955 and ended on April 30th, 1975. It involved many countries, but was mainly a conflict between the USSR and China and the USA on Vietnamese soil. In popular culture, it is known for a rise of anti-war sentiment with the "Make love, not war" movement. How can we see these characteristics reflected in the movies made around that time ? Did the movie industry reflect these sentiments ?
 
-TODO : GRAPHE SUR LA PRODUCTION DE FILMS
+First, let's look at the percentage of war movies made throughout the years around the Vietnam War, in the world and in the USA.
+
+
 
 Take home message
 -----------------
