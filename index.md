@@ -52,11 +52,11 @@ This analysis is very surface level and depends on the movies in the dataset, we
 
 And for American movies during the war we found that each cluster was very unique and different:
 
-![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
+![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
 ![Not found]({{ 'assets/img/heart.jpg' | relative_url }})
 
-![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
+![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
 
 
 We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
@@ -68,17 +68,17 @@ We then did this analysis of topics for every cluster, for every country, before
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:	|:-:	|:-:	|:-:	|
 |   USA   |   (Investigation,crime)<br>(love)<br>(<span style="color:blue">unclear</span>)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(unclear) |
-|   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(unclear) |
+|   GERMANY   |   (<span style="color:red">Hitler</span>,nationalism,<span style="color:red">Nazis</span>)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   ITALY   |   (love,war)<br>(<span style="color:blue">unclear</span>)   |   (soldiers,religion)<br>(Family,struggle) |   (<span style="color:red">WWII</span>)<br>(political conflict)<br>(love)(<span style="color:blue">unclear</span>) |
 |   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis</span>, war)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (WWII)<br>(love)<br>(<span style="color:blue">unclear</span>) |
 |   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   JAPAN   |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
 
 [1] Each cluster is in parenthesis\\
-[2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (unclear)
+[2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (<span style="color:blue">unclear</span>)
 
-Here it is interesting to note that during the war most countries, besides the UK, don’t have any unclear clusters, which is not the case for clusters before and after the war. This might be the consequence of government oversight, people cannot make any type of movie that they want, they have to fit a political agenda which wants to say certain things. For Germany it is to glorify themselves and their leaders by talking about the war that they won and the upper class. 
+First, it is important to note that unclear clusters are a consequence of variety in movie production. When the movies are too different, LDA has trouble extracting the different topics. And here it is interesting to note that during the war most countries, besides the UK, don’t have any unclear clusters, which is not the case for clusters before and after the war. This might be the consequence of government oversight, people cannot make any type of movie that they want, they have to fit a political agenda which wants to say certain things. For Germany it is to glorify themselves and their leaders by talking about the war that they won and the upper class. 
 
 For Japan they talk about their traditions and social status, to remind their people that they are fighting to protect their traditions and that they are honor bound to do so.
 
@@ -88,7 +88,10 @@ In America they have two types of movies: the ones to distract and entertain the
 {% include youtube_embed.html id="qy_MQkaJ5WE" %}
 </div>
 
--------
+In France there is no war cluster, only love and family, this highlights the political situation of France at the time, which was under occupation. Probably there was some censorship done by the German government and the filmmakers couldn’t talk about their situation or the war.
+
+The 10 years after the war, we can say that a larger variety of films come out, as LDA has more trouble extracting topics. Except for the topic of WWII, which is present in all European countries. This makes sense as the citizens that suffered the war are mostly european. The American citizens didn’t see what happened in the continent and therefore didn’t feel the same need to represent it. Whereas the Japanese didn’t suffer the war in the same way, their traumatic experience was the atomic bomb, which they represented via science fiction and Godzilla.
+
 
 <div style="text-align: center;">
 {% include lda.html max-width="200px" %}
