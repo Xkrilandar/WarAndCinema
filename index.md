@@ -99,18 +99,19 @@ Death dominant all the time
 
 Lets do sentiment analysis...
 -----------------------------
-For the period 1930-1955
+On the 1930-1955 period (we include the pre-war and post-war period)
 
-#### Loser countries : 
-In **Germany**, we can observe a negative sentiment in the post war period (1946-1951). We can note that in 1939, at the beginning of the war, we find the most positive year for German movies. Perhaps this was to encourage soldiers to fight.\\
-In **Italy**, we find a post war period that is very negative, (1945-1951) as in Germany. \\
-In **Japan**, the pre war period was positive (until 1936) and since then, it seems to be mostly negative.\\
+#### Axis countries : 
+For **Germany** produced films, we can observe that overall sentiment is **negative in the post-war period** (1946-1951). We can note that in 1939, has a a overall strong positive sentiment. Perhaps this is due to a large proportion of _propaganda_ films.\\
+For **Italy** produced films, we find a post-war period that has overall **negative** compound sentiment, (1945-1951) as in Germany. \\
+For **Japan** produced films, the pre-war period was positive (until 1936) and since then, it seems to be mostly negative.\\
 ![Not found]({{ 'assets/img/winlose1.png' | relative_url }})
 
 
-#### Winner countries :
-For **France produced films**, the year of _liberation_ has a _positive_ overall sentiment.\\
-For **United Kingdom and United States of America produced films**, the amount of produced films is much bigger and thus the sentiment analysis is _less fruitful_. But we can still note that the **sentiment of English films in 1944 and 1945 is more positive than American ones**. It could hint in a differtent reception of victory for the two countries. Also interesting is the fact that the general sentiment of films is a bit more negative after the entry into the war of the country (1939 for UK and 1941 for USA). \\
+#### Allies countries :
+For **France** produced films, the year of _liberation_ has a _positive_ overall sentiment.\\
+For **United Kingdom** and **United States of America** produced films, the amount of produced films is much bigger and thus the sentiment analysis is _less fruitful_. But we can still note that the **sentiment of English films in 1944 and 1945 is more positive than American ones**. It could hint in a different reception of victory for the two countries.\\
+Also interesting is the fact that the general sentiment of films is a bit more _negative_ after the country enters the war (1939 for UK and 1941 for USA).\\
 ![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
 
