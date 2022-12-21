@@ -51,7 +51,7 @@ Case Study : WW2
 
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:    |:-:    |:-:    |:-:    |
-|   USA   |   (Investigation,crime)    (love)    (unclear)   |   (cartoons)    (war)     (love) |  (love)     (cartoons)     (fugitives,escape) |
+|   USA   |   (Investigation,crime)<br>    (love)<br>    (unclear)  |   (cartoons) <br>   (war) <br>    (love) |  (love) <br>    (cartoons)  <br>   (fugitives,escape) |
 |   GERMANY   |   (Hitler,nationalism,nazi)     (investigation)  |   (prussian war)     (Artistocracy) |  (WWII)     (unclear) |
 |   FRANCE   |   (WWI)     (crime)     (unclear)   |   (Marriage, love)     (Marriage, love) |  (WWII)     (unclear) |
 |   ITALY   |   (love,war)     (unclear)   |   (soldiers,religion)     (Family,struggle) |   (WWII)     (political conflict)     (love)     (unclear) |
