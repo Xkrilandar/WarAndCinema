@@ -6,7 +6,7 @@ subtitle: Looking at wars trough the lens of cinema
 
 <style>body {text-align: justify}</style>
 
-Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. ==What is the impact of war on film production? How does each country show the war? Or doesn't show it?==
+Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. **What is the impact of war on film production? How does each country show the war? Or doesn't show it?**
 
 ![]({{ 'assets/img/vietnamcamera.jpg' | relative_url }})
 
@@ -109,23 +109,11 @@ In **Japan**, the pre war period was positive (until 1936) and since then, it se
 
 
 #### Winner countries :
-In **France**, we can find a very positive year in 1945, the victory year.\\
-In the **United Kingdom**, we observe a negative period during the war (1939-1943) and another post war (1946-1952). These periods are cut by the 1945 year that comes very positive, as it is the victory year for the UK.\\
-In the **United States of America**, we see a clear threshold (1942, the year USA comes into the WW2 conflict), when all the movies carry a negative very negative sentiment. We can note a very negative year in 1939, the start of WW2. \\
+For **France produced films**, the year of _liberation_ has a _positive_ overall sentiment.\\
+For **United Kingdom and United States of America produced films**, the amount of produced films is much bigger and thus the sentiment analysis is _less fruitful_. But we can still note that the **sentiment of English films in 1944 and 1945 is more positive than American ones**. It could hint in a differtent reception of victory for the two countries. Also interesting is the fact that the general sentiment of films is a bit more negative after the entry into the war of the country (1939 for UK and 1941 for USA). \\
 ![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
 
-
-
-
-## TODO : GRAPHE SUR LA PRODUCTION DE FILMS
-BLABLABLA
-BLABLABLA
-BLABLABLA
-GRAPH
-BLABLABLA
-BLABLABLA
-BLABLABLA
 
 
 
