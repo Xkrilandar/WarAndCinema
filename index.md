@@ -6,7 +6,7 @@ subtitle: Looking at wars trough the lens of cinema
 
 <style>body {text-align: justify}</style>
 
-Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. What is the impact of war on film production? How does each country show the war? Or doesn't show it?
+Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. ==What is the impact of war on film production? How does each country show the war? Or doesn't show it?==
 
 ![]({{ 'assets/img/vietnamcamera.jpg' | relative_url }})
 
@@ -32,14 +32,14 @@ Case Study : WW2
 ----------------
 
 #### WW2 recap
-
 [World War II](https://en.wikipedia.org/wiki/World_War_II) lasted from 1939 to 1945. It involved the vast majority of the world's nations - including all the major powers - who ended up forming two opposing military alliances: the Allies and the Axis. It was the largest war in history, directly involving over 100 million people in more than 30 countries. In a state of "total war", the main participants put all their economic, industrial and scientific capacities at the service of the war effort, erasing the distinction between civilian and military resources. Marked by massive civilian deaths, including the Holocaust, and the strategic bombing of industrial and population centers, it resulted in between 50 and 70 million deaths.
 
 ![Not found]({{ 'assets/img/debarquement.jpg' | relative_url }})
 
 
 
-## TODO : GRAPHE SUR LES TOPICS
+## Lets do topic analysis
+-------------------------
 BLABLABLA
 BLABLABLA
 BLABLABLA
@@ -99,7 +99,6 @@ Death dominant all the time
 
 Lets do sentiment analysis...
 -----------------------------
-
 For the period 1930-1955
 
 #### Loser countries : 
