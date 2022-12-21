@@ -40,7 +40,7 @@ Case Study : WW2
 
 ## Lets do topic analysis
 -------------------------
-#### Communities detection for WWII:
+#### Communities detection for WWII
 
 We wanted to find out what types of movies the different countries made in the second world war and if they were different from the movies they made before or after. The first thing we noticed was the number of movies: if we look at the number of movies produced in each belligerent country we notice that the only countries that increased their movie production during the war are the USA and Italy. And we see that after the war the film production of France, Japan and Italy increased drastically: 3 fold for France and Japan and 6 fold for Italy. The movie production for the US, USSR and UK post war are slightly below their production prewar. The movie industry of Germany became very small after the war.
 
@@ -52,12 +52,14 @@ This analysis is very surface level and depends on the movies in the dataset, we
 
 And for American movies during the war we found that each cluster was very unique and different:
 
-A | B | C
+
 - | - | -
 ![Not found]({{ 'assets/img/soldier.jpg' | relative_url }}) | ![Not found]({{ 'assets/img/heart.jpg' | relative_url }}) | ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
 
-We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”,”Donald”,”Daffy” and “Elmer”. The second one is clearly about love and family with words like: “find”,“Love”,”marriage”, “husband”,”marry”,”family” and ”meet”. The third one is clearly about war with words like: “kill”,”German”,”nazi”,”Japanese”,”death”,”men” and ”captain”.
+We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
+The second one is clearly about love and family with words like: “find”, “Love”, ”marriage”, “husband”, ”marry”, ”family” and ”meet”.\\ 
+The third one is clearly about war with words like: “kill”, ”German”, ”nazi”, ”Japanese”, ”death”, ”men” and ”captain”.
 
 We then did this analysis of topics for every cluster, for every country, before, during and after the war and got this: 
 
@@ -90,43 +92,43 @@ In America they have two types of movies: the ones to distract and entertain the
 {% include lda.html max-width="200px" %}
 </div>
 
-War, Death, Family and Love
----------------------------
-#### Axis countries : 
+War, death, family and love...
+------------------------------
+#### Axis countries 
 
-**Germany:**\\
+##### Germany
 **War, death and family are recurring topics in films produced in post-war Germany**.\\
 During the war and the pre-war period it was mostly the family that was a recurent topic.\\
 Love does not seem to be a recuring topic in german films.\\
 ![Not found]({{ 'assets/img/topicgermany.jpg' | relative_url }})
 
-**Italy :** \\
+##### Italy
 **Unsurprisingly, the family is an important topic in Italy until the fall of fascism.**\\
 The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films.\\
 Death is a more reccurent topic in italian films during the war than it was in german films.\\
 On the other hand, war is a less recurrent topic in post-war italian films than it was for post-war german films.\\
 ![Not found]({{ 'assets/img/topicitaly.jpg' | relative_url }})
 
-**Japan :**\\
+##### Japan
 **The topic of family is an important topic even after the war in japanese films.**\\
 As with german films, love is not a recurring topic in japanese films.\\
 ![Not found]({{ 'assets/img/topicjapan.jpg' | relative_url }})
 
 
-#### Allies countries :
+#### Allies countries
 
-**France :**\\
+##### France
 **Among all 6 countries, France is the country where the topic of love is the most recurrent.**\\
 Family is also a recurring topic in french films.\\
 War is way less talked about in french films during the war than death.\\
 ![Not found]({{ 'assets/img/topicfrance.jpg' | relative_url }})
 
-**United Kingdom :** \\
+##### United Kingdom
 **Family and death are recuring topics in the english films.**\\
 The war topic gains in popularity during the war for the english films.\\
 ![Not found]({{ 'assets/img/topicuk.jpg' | relative_url }})
 
-**United States of America :** \\
+##### United States of America
 The topics are mostly similar to the English topics.\\
 ![Not found]({{ 'assets/img/topicusa.jpg' | relative_url }})
 
