@@ -64,7 +64,7 @@ Love does not seem to be a recuring topic in german films.\\
 
 **Italy :** \\
 **Unsurprisingly, the family is an important topic in Italy until the fall of fascism.**\\
-_The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films._\\
+The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films.\\
 Death is a more reccurent topic in italian films during the war than it was in german films.\\
 On the other hand, war is a less recurrent topic in post-war italian films than it was for post-war german films.\\
 ![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
@@ -89,7 +89,7 @@ The war topic gains in popularity during the war for the english films.\\
 ![Not found]({{ 'assets/img/topicuk.png' | relative_url }})
 
 **United States of America :** \\
-The topics are mostly similar to the English topics.
+The topics are mostly similar to the English topics.\\
 ![Not found]({{ 'assets/img/topicusa.png' | relative_url }})
 
 
@@ -130,6 +130,76 @@ The [Vietnam War](https://en.wikipedia.org/wiki/Vietnam_War) was a military conf
 The Vietnam War started on November 1st, 1955 and ended on April 30th, 1975. It involved many countries, but was mainly a conflict between the USSR and China and the USA on Vietnamese soil. In popular culture, it is known for a rise of anti-war sentiment with the "Make love, not war" movement. How can we see these characteristics reflected in the movies made around that time ? Did the movie industry reflect these sentiments ?
 
 First, let's look at the percentage of war movies made throughout the years around the Vietnam War, in the world and in the USA.
+
+![Not found]({{ 'assets/img/vietnam1.png' | relative_url }})
+
+We can immediately see that the USSR has an enormous proportion of war films, getting close to 40% in 1970 and 1971. It is important to note that we have much less data for movies from the USSR in that time : 341 films, compared to 8510 American films. The median number of films made by year in the USSR during the given time period is 9. However, it is still interesting to see that the Soviet Union made a large proportion of war films per year.  
+Since our dataset holds mostly American movies, it makes sense that the graphs for war films in the world and war films in the USA follow roughly the same shape. However, it does seem like there is a larger proportion of war films made in the USA during that time compared to the rest of the world, hitting more than 10% of all films in 1958, 1963 and 1965. After the end of the war, the proportion of war films in the USA drops quickly to the global average. 
+
+Now let us look at the proportion of anti-war films. We note that there are no anti-war films made in the Soviet Union in our dataset ; this can be due to censorship being very strict in the USSR, or it can simply be due to the lack of data.
+
+![Not found]({{ 'assets/img/vietnam2.png' | relative_url }})
+
+As we can see, anti-war films are a lot less common in the rest of the world than they are in the USA. We can also see that anti-war films are concentrated around the time of the Vietnam War. To see whether this is statistically significant, we ran t-tests comparing the proportion of anti-war films in the USA during the Vietnam war and before and after. We found a p-value of 0.0001 < 0.05, so we can conclude that it is statistically significant. On the other hand, in the rest of the world, the p-value for the comparison of anti-war movies in these time periods is 0.27 >> 0.05, so it is not statistically significant.
+
+This allows us to conclude that in the USA particularly, anti-war movies are a movie genre that can be linked to the time period of the Vietnam war. This is interesting given that it is far from the only war the USA has been belligerent in, and they have also participated in many wars since.
+
+We now perform topic analysis on American anti-war films that were released around the time of the Vietnam War.
+
+[('military', 0.015220979277461948),
+ ('war', 0.013570511644966074),
+ ('weapon', 0.012836970474967908),
+ ('fight', 0.009352649917476618),
+ ('kill', 0.00715202640748212),
+ ('leader', 0.00715202640748212),
+ ('negative_emotion', 0.00715202640748212),
+ ('crime', 0.0060517146524848705),
+ ('death', 0.005684944067485788),
+ ('prison', 0.005501558774986246)]
+
+The above are the ten most prevalent topics in anti-war films in America during the Vietnam War. From this, we can see that these movies generally used the angle of showing how terrible and brutal wars are, as opposed to, for example, showing a utopian peace time as a form of critique of war.
+
+We now perform the same topic analysis on war films.
+
+[('military', 0.012595477421389684),
+ ('war', 0.012348641717976496),
+ ('fight', 0.009976276346283066),
+ ('leader', 0.007905599056539089),
+ ('weapon', 0.007357075271176446),
+ ('negative_emotion', 0.006979965168739629),
+ ('kill', 0.005697790820454452),
+ ('family', 0.005601799158015989),
+ ('children', 0.005306967623383569),
+ ('death', 0.005121840845823677)]
+
+These are practically the same topics, however, they do also include "family" and "children" as topics.
+
+### The words "Vietnam" and "War" in American movies
+Do these movies only talk about the country of Vietnam in relation to the war ? To explore this, we first look at the proportion of American movie summaries that contain the word "Vietnam" over time. We do not repeat this analysis for the USSR, since there are only 2 movies made there that include the word "Vietnam" in their summary.
+
+![Not found]({{ 'assets/img/vietnam3.png' | relative_url }})
+
+As we can see, American movies did not discuss Vietnam at all before the war. We can also see that the difference between the proportion of these movies made during and after the war is not statistically significant, similarly to Germany and World War II. However, visually, we can see that the proportion of movies mentioning Vietnam goes down a lot after the end of the war.
+
+We now do topic analysis on the American movies that include the word "Vietnam'' in the summary.
+
+[('negative_emotion', 0.0075360372587396605),
+ ('war', 0.007486035115790677),
+ ('family', 0.006978870523022415),
+ ('fight', 0.006821720930897038),
+ ('children', 0.006578853379430547),
+ ('crime', 0.00642170378730517),
+ ('military', 0.006414560624026744),
+ ('death', 0.00577881909224681),
+ ('home', 0.00536451562209809),
+ ('traveling', 0.005350229295541237)]
+
+From these topics, we can see that war and violence are major topics in American movies that somehow include Vietnam. Finally, we count the percentage of American movies that include the words "vietnam" and "war".
+We can see that 77% of movies that include the word "Vietnam" in the summary also include the word "war" in the summary. This, along with the above topic analysis, shows us that American movies that somehow discuss Vietnam usually also discuss war, and probably discusses the Vietnam War. Similarly, of all American movies that include the word "Germany", 84% also include the word "war" or the word "nazi".
+
+
+
+
 
 
 
