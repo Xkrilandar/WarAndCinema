@@ -51,45 +51,40 @@ BLABLABLA
 
 #### Axis countries : 
 
-**In Germany:**\\
-**War, death and family are recurent topics in post-war produced films in germany**.\\
-During the war and pre-war it was mostly family that was a recurent topic.\\
-Love does not seem to be a recuring topic for german films.\\
+**Germany:**\\
+**War, death and family are recurring topics in films produced in post-war Germany**.\\
+During the war and the pre-war period it was mostly the family that was a recurent topic.\\
+Love does not seem to be a recuring topic in german films.\\
 ![Not found]({{ 'assets/img/topicgermany.png' | relative_url }})
 
-**In Italy :** \\
-**Unsurprisingly, family is an important topic in Italy until the fall of fascism.**\\
-_The peaks in love and death topics in the pre-war period are most likely surepresentation due to low amount of films._
-Death is a more recurring topic for italian films during the war than it was for german films.\\
-On the other hand, war is a less recurring topic for italian films in the post-war period than it was for german films.\\
+**Italy :** \\
+**Unsurprisingly, the family is an important topic in Italy until the fall of fascism.**\\
+_The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films._\\
+Death is a more reccurent topic in italian films during the war than it was in german films.\\
+On the other hand, war is a less recurrent topic in post-war italian films than it was for post-war german films.\\
 ![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
 
-**In Japan :**\\
-**The topic of family is an important topic even after the war in japanese films.**
-As for german films, love is not a recurring topic in japanese films.
-
+**Japan :**\\
+**The topic of family is an important topic even after the war in japanese films.**\\
+As with german films, love is not a recurring topic in japanese films.\\
 ![Not found]({{ 'assets/img/topicjapan.png' | relative_url }})
 
 
 #### Allies countries :
 
-**In France :**\\
-Familiy : very dominant category, moslty in 1940 and post war (1945-1953)\\
-Death dominant in war period
-
+**France :**\\
+**Among all 6 countries, France is the country where the topic of love is the most recurrent.**\\
+Family is also a recurring topic in french films.\\
+War is way less talked about in french films during the war than death.\\
 ![Not found]({{ 'assets/img/topicfrance.png' | relative_url }})
 
-**In the United Kingdom :** \\
-Family very dominant topic all the time\\
-Death overall dominant
-
+**United Kingdom :** \\
+**Family and death are recuring topics in the english films.**\\
+The war topic gains in popularity during the war for the english films.\\
 ![Not found]({{ 'assets/img/topicuk.png' | relative_url }})
 
-**In the United States of America :** \\
-War dominant in 1943\\
-Family dominant all the time\\
-Death dominant all the time
-
+**United States of America :** \\
+The topics are mostly similar to the English topics.
 ![Not found]({{ 'assets/img/topicusa.png' | relative_url }})
 
 
