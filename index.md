@@ -75,8 +75,8 @@ We then did this analysis of topics for every cluster, for every country, before
 |   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   JAPAN   |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
 
-[1] Each cluster is in parenthesis\\
-[2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (<span style="color:blue">unclear</span>)
+\* Each cluster is in parenthesis\\
+\*\* Clusters that have too many different movies, where LDA cannot extract the topics are defined by (<span style="color:blue">unclear</span>)
 
 First, it is important to note that unclear clusters are a consequence of variety in movie production. When the movies are too different, LDA has trouble extracting the different topics. And here it is interesting to note that during the war most countries, besides the UK, don’t have any <span style="color:blue">unclear</span> clusters, which is not the case for clusters before and after the war. **This might be the consequence of government oversight, people cannot make any type of movie that they want, they have to fit a political agenda which wants to say certain things. For Germany it is to glorify themselves and their leaders by talking about the war that they won and the upper class.**
 
