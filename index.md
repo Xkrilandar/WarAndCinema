@@ -49,9 +49,9 @@ We can see here different behaviors for each country. A war takes a lot of resou
 This analysis is very surface level and depends on the movies in the dataset, we therefore need to take these observations with a grain of salt. To have more generalizable results that do n’t depend on the number of movies, but on the subjects in the movies we decided to do some topic analysis using LDA (Latent Dirichlet Allocation) for each country before, during and after the war. This didn’t produce any relevant information as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found this for all the USSR’s movies before the war:
 
 Here is LDA of America during the war:
-<div style="text-align: center;">
-{% include lda_american.html max-width="200px" %}
-</div>
+
+{% include lda_american.html%}
+
 
 This is hard to read and to find actual relevant topics as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found for American movies during the war:
 
