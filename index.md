@@ -1,7 +1,7 @@
 ---
 layout: home
 title: War impact on cinema
-subtitle: Looking at wars trough the lens of cinema
+subtitle: Looking at wars through the lens of cinema
 ---
 
 <style>body {text-align: justify}</style>
@@ -21,7 +21,7 @@ War films never had such a large share of film production as during World War II
 Let's have a look on the proportion of war films over the years:\\
 ![Not found]({{ 'assets/img/WarFilmsByYear.png' | relative_url }})
 
-To better illustrate the impact of war, we zoom on two wars: the World War II and the Vietnam War.
+To better illustrate the impact of war, we zoom in on two wars: World War II and the Vietnam War.
 
 
 
@@ -38,7 +38,7 @@ Case Study : WW2
 
 
 
-## Lets do topic analysis
+## Let's do topic analysis
 -------------------------
 #### Communities detection for WWII
 
@@ -100,14 +100,14 @@ War, death, family and love...
 
 ##### Germany
 **War, death and family are recurring topics in films produced in post-war Germany**.\\
-During the war and the pre-war period it was mostly the family that was a recurent topic.\\
-Love does not seem to be a recuring topic in german films.\\
+During the war and the pre-war period it was mostly the family that was a recurrent topic.\\
+Love does not seem to be a recurring topic in german films.\\
 ![Not found]({{ 'assets/img/topicgermany.jpg' | relative_url }})
 
 ##### Italy
-**Unsurprisingly, the family is an important topic in Italy until the fall of fascism.**\\
+**Unsurprisingly, the family was an important topic in Italy until the fall of fascism.**\\
 The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films.\\
-Death is a more reccurent topic in italian films during the war than it was in german films.\\
+Death is a more recurrent topic in italian films during the war than it was in german films.\\
 On the other hand, war is a less recurrent topic in post-war italian films than it was for post-war german films.\\
 ![Not found]({{ 'assets/img/topicitaly.jpg' | relative_url }})
 
@@ -126,7 +126,7 @@ War is way less talked about in french films during the war than death.\\
 ![Not found]({{ 'assets/img/topicfrance.jpg' | relative_url }})
 
 ##### United Kingdom
-**Family and death are recuring topics in the english films.**\\
+**Family and death are recurring topics in the english films.**\\
 The war topic gains in popularity during the war for the english films.\\
 ![Not found]({{ 'assets/img/topicuk.jpg' | relative_url }})
 
@@ -137,11 +137,11 @@ The topics are mostly similar to the English topics.\\
 
 
 
-Lets do sentiment analysis...
+Let's do sentiment analysis...
 -----------------------------
 ##### On the 1930-1955 period (we include the pre-war and post-war period)
 #### Axis countries : 
-For **Germany** produced films, we can observe that overall sentiment is **negative in the post-war period** (1946-1951). We can note that in 1939, has a a overall strong positive sentiment. Perhaps this is due to a large proportion of _propaganda_ films.\\
+For **Germany** produced films, we can observe that overall sentiment is **negative in the post-war period** (1946-1951). We can note that in 1939, it had an overall strong positive sentiment. Perhaps this is due to a large proportion of _propaganda_ films.\\
 For **Italy** produced films, we find a post-war period that has overall **negative** compound sentiment, (1945-1951) as in Germany. \\
 For **Japan** produced films, the pre-war period was positive (until 1936) and since then, it seems to be mostly negative.\\
 ![Not found]({{ 'assets/img/winlose1.png' | relative_url }})
