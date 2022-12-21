@@ -40,8 +40,17 @@ Case Study : WW2
 
 ## Lets do topic analysis
 -------------------------
+#### Communities detection for WWII:
+
+We wanted to find out what types of movies the different countries made in the second world war and if they were different from the movies they made before or after. The first thing we noticed was the number of movies: if we look at the number of movies produced in each belligerent country we notice that the only countries that increased their movie production during the war are the USA and Italy. And we see that after the war the film production of France, Japan and Italy increased drastically: 3 fold for France and Japan and 6 fold for Italy. The movie production for the US, USSR and UK post war are slightly below their production prewar. The movie industry of Germany became very small after the war.
+
+We can see here different behaviors for each country. A war takes a lot of resources and industries that are considered as non essential often see their production strictly decline. The fact that a country’s film production doesn’t decrease and even increases for Italy and the US reveals that these countries invested in their movie industry and believed it was essential. Indeed, they can be fairly important for morale. Nonetheless, they are considered as less important than tanks and weapons for all the other countries as their film production decreases.
+
+This analysis is very surface level and depends on the movies in the dataset, we therefore need to take these observations with a grain of salt. To have more generalizable results that do n’t depend on the number of movies, but on the subjects in the movies we decided to do some topic analysis using LDA (Latent Dirichlet Allocation) for each country before, during and after the war. This didn’t produce any relevant information as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found this for all the USSR’s movies before the war:
 
 ![Not found]({{ 'assets/img/main.jpg' | relative_url }})
+
+And for American movies during the war we found that each cluster was very unique and different:
 
 ![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
 
@@ -49,23 +58,33 @@ Case Study : WW2
 
 ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
-|   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
-|:-:    |:-:    |:-:    |:-:    |
-|   USA   |   (Investigation,crime)<br>(love)<br>()   |   (cartoons)<br>(war)<br>(love) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (WWII)<br>() |
-|   FRANCE   |   (WWI)<br>(crime)<br>()   |   (Marriage, love)<br>(Marriage, love) |  (WWII)<br>() |
-|   ITALY   |   (love,war)<br>()   |   (soldiers,religion)<br>(Family,struggle) |   (WWII)<br>(political conflict)<br>(love)() |
-|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>()<br>()   |   (Nazis, war)<br>(Aviation)<br>(Dramas)<br>()<br>() |   (WWII)<br>(love)<br>() |
-|   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>() |
-|   JAPAN   |   (tradition, family)<br>()   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>() |
+We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”,”Donald”,”Daffy” and “Elmer”. The second one is clearly about love and family with words like: “find”,“Love”,”marriage”, “husband”,”marry”,”family” and ”meet”. The third one is clearly about war with words like: “kill”,”German”,”nazi”,”Japanese”,”death”,”men” and ”captain”.
 
--------
+We then did this analysis of topics for every cluster, for every country, before, during and after the war and got this: 
+
+|   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
+|:-:	|:-:	|:-:	|:-:	|
+|   USA   |   (Investigation,crime)<br>(love)<br>(unclear)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
+|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (WWII)<br>(unclear) |
+|   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (WWII)<br>(unclear) |
+|   ITALY   |   (love,war)<br>(unclear)   |   (soldiers,religion)<br>(Family,struggle) |   (WWII)<br>(political conflict)<br>(love)(unclear) |
+|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(unclear)<br>(unclear)   |   (Nazis, war)<br>(Aviation)<br>(Dramas)<br>(unclear)<br>(unclear) |   (WWII)<br>(love)<br>(unclear) |
+|   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>(unclear) |
+|   JAPAN   |   (tradition, family)<br>(unclear)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(unclear) |
+
+[1] Each cluster is in parenthesis
+[2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (unclear)
+
+Here it is interesting to note that during the war most countries, besides the UK, don’t have any unclear clusters, which is not the case for clusters before and after the war. This might be the consequence of government oversight, people cannot make any type of movie that they want, they have to fit a political agenda which wants to say certain things. For Germany it is to glorify themselves and their leaders by talking about the war that they won and the upper class. 
+
+For Japan they talk about their traditions and social status, to remind their people that they are fighting to protect their traditions and that they are honor bound to do so.
+
+In America they have two types of movies: the ones to distract and entertain the population with cartoons and love movies and movies talking directly about the war. Where love movies can also be considered as movies to remind people of the American way of life and cartoons can be used for propaganda: 
 
 <div style="text-align: center;">
 {% include youtube_embed.html id="qy_MQkaJ5WE" %}
 </div>
 
--------
 
 {% include lda.html max-width="200px" %}
 
