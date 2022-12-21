@@ -51,13 +51,14 @@ Case Study : WW2
 
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:    |:-:    |:-:    |:-:    |
-|   USA   |   (Investigation,crime)<br>    (love)<br>    (unclear)  |   (cartoons) <br>   (war) <br>    (love) |  (love) <br>    (cartoons)  <br>   (fugitives,escape) |
-|   GERMANY   |   (Hitler,nationalism,nazi)     (investigation)  |   (prussian war)     (Artistocracy) |  (WWII)     (unclear) |
-|   FRANCE   |   (WWI)     (crime)     (unclear)   |   (Marriage, love)     (Marriage, love) |  (WWII)     (unclear) |
-|   ITALY   |   (love,war)     (unclear)   |   (soldiers,religion)     (Family,struggle) |   (WWII)     (political conflict)     (love)     (unclear) |
-|   UK   |   (fugitives, escaping, war)     (love,money)      (unclear)     (unclear)   |   (Nazis, war)     (Aviation)(Dramas)     (unclear)(unclear) |   (WWII)     (love)     (unclear) |
-|   USSR   |   (war,revolution)    (workers)    (WWI, Germany)(workers,communism)   |   (war) |   (WWII)    (unclear) |
-|   JAPAN   |   (tradition, family)    (unclear)   |   (tradition, history)     (industry, social status) |   (science fiction)     (relationships)(unclear) |
+|   USA   |   (Investigation,crime)<br>(love)<br>()   |   (cartoons)<br>(war)<br>(love) |  (love)<br>(cartoons)<br>(fugitives,escape) |
+|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (WWII)<br>() |
+|   FRANCE   |   (WWI)<br>(crime)<br>()   |   (Marriage, love)<br>(Marriage, love) |  (WWII)<br>() |
+|   ITALY   |   (love,war)<br>()   |   (soldiers,religion)<br>(Family,struggle) |   (WWII)<br>(political conflict)<br>(love)() |
+|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>()<br>()   |   (Nazis, war)<br>(Aviation)<br>(Dramas)<br>()<br>() |   (WWII)<br>(love)<br>() |
+|   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>() |
+|   JAPAN   |   (tradition, family)<br>()   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>() |
+
 
 
 
@@ -70,19 +71,19 @@ Case Study : WW2
 **War, death and family are recurring topics in films produced in post-war Germany**.\\
 During the war and the pre-war period it was mostly the family that was a recurent topic.\\
 Love does not seem to be a recuring topic in german films.\\
-![Not found]({{ 'assets/img/topicgermany.png' | relative_url }})
+![Not found]({{ 'assets/img/topicgermany.jpg' | relative_url }})
 
 **Italy :** \\
 **Unsurprisingly, the family is an important topic in Italy until the fall of fascism.**\\
 The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films.\\
 Death is a more reccurent topic in italian films during the war than it was in german films.\\
 On the other hand, war is a less recurrent topic in post-war italian films than it was for post-war german films.\\
-![Not found]({{ 'assets/img/topicitaly.png' | relative_url }})
+![Not found]({{ 'assets/img/topicitaly.jpg' | relative_url }})
 
 **Japan :**\\
 **The topic of family is an important topic even after the war in japanese films.**\\
 As with german films, love is not a recurring topic in japanese films.\\
-![Not found]({{ 'assets/img/topicjapan.png' | relative_url }})
+![Not found]({{ 'assets/img/topicjapan.jpg' | relative_url }})
 
 
 #### Allies countries :
@@ -91,16 +92,16 @@ As with german films, love is not a recurring topic in japanese films.\\
 **Among all 6 countries, France is the country where the topic of love is the most recurrent.**\\
 Family is also a recurring topic in french films.\\
 War is way less talked about in french films during the war than death.\\
-![Not found]({{ 'assets/img/topicfrance.png' | relative_url }})
+![Not found]({{ 'assets/img/topicfrance.jpg' | relative_url }})
 
 **United Kingdom :** \\
 **Family and death are recuring topics in the english films.**\\
 The war topic gains in popularity during the war for the english films.\\
-![Not found]({{ 'assets/img/topicuk.png' | relative_url }})
+![Not found]({{ 'assets/img/topicuk.jpg' | relative_url }})
 
 **United States of America :** \\
 The topics are mostly similar to the English topics.\\
-![Not found]({{ 'assets/img/topicusa.png' | relative_url }})
+![Not found]({{ 'assets/img/topicusa.jpg' | relative_url }})
 
 
 
