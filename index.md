@@ -59,8 +59,13 @@ Case Study : WW2
 |   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>() |
 |   JAPAN   |   (tradition, family)<br>()   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>() |
 
-{% include youtube_embed.html id="qy_MQkaJ5WE" %}
+-------
 
+<div style="text-align: center;">
+{% include youtube_embed.html id="qy_MQkaJ5WE" %}
+</div>
+
+-------
 
 {% include lda.html max-width="200px" %}
 
