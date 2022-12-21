@@ -68,10 +68,10 @@ We then did this analysis of topics for every cluster, for every country, before
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:	|:-:	|:-:	|:-:	|
 |   USA   |   (Investigation,crime)<br>(love)<br>(<span style="color:blue">unclear</span>)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|   GERMANY   |   (<span style="color:red">Hitler</span>,nationalism,<span style="color:red">Nazis</span>)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|   GERMANY   |   (<span style="color:red">Hitler,nationalism,Nazis</span>)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   ITALY   |   (love,war)<br>(<span style="color:blue">unclear</span>)   |   (soldiers,religion)<br>(Family,struggle) |   (<span style="color:red">WWII</span>)<br>(political conflict)<br>(love)(<span style="color:blue">unclear</span>) |
-|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis</span>, war)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (<span style="color:red">WWII</span>)<br>(love)<br>(<span style="color:blue">unclear</span>) |
+|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis,War</span>)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (<span style="color:red">WWII</span>)<br>(love)<br>(<span style="color:blue">unclear</span>) |
 |   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
 |   JAPAN   |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
 
