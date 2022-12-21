@@ -68,7 +68,7 @@ We then did this analysis of topics for every cluster, for every country, before
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:	|:-:	|:-:	|:-:	|
 |   USA   |   (Investigation,crime)<br>(love)<br>(unclear)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (WWII)<br>(unclear) |
+|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:blue">WWII</span>)<br>(unclear) |
 |   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (WWII)<br>(unclear) |
 |   ITALY   |   (love,war)<br>(unclear)   |   (soldiers,religion)<br>(Family,struggle) |   (WWII)<br>(political conflict)<br>(love)(unclear) |
 |   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(unclear)<br>(unclear)   |   (Nazis, war)<br>(Aviation)<br>(Dramas)<br>(unclear)<br>(unclear) |   (WWII)<br>(love)<br>(unclear) |
