@@ -62,7 +62,7 @@ And for American movies during the war we found that each cluster was very uniqu
 We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
 The second one is clearly about love and family with words like: “find”, “Love”, ”marriage”, “husband”, ”marry”, ”family” and ”meet”.\\
 The third one is clearly about war with words like: “kill”, ”German”, ”nazi”, ”Japanese”, ”death”, ”men” and ”captain”.
-
+:us: USA :us:
 We then did this analysis of topics for every cluster, for every country, before, during and after the war and got this: 
 
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
