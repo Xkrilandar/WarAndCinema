@@ -4,6 +4,11 @@ title: War impact on cinema
 subtitle: Looking at wars through the lens of cinema
 ---
 
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
 <style>body {text-align: justify}</style>
 
 Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. **What is the impact of war on film production? How does each country show the war? Or doesn't show it?**
@@ -165,8 +170,21 @@ Also interesting is the fact that the general sentiment of films is a bit more _
 ![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
 
+  <div class="your-class">
+    <div>![Not found]({{ 'assets/img/winlose2.png' | relative_url }})</div>
+    <div>your content</div>
+    <div>your content</div>
+  </div>
+  
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+        setting-name: setting-value
+      });
+    });
+  </script>
 
 
 
