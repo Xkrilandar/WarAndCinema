@@ -52,11 +52,10 @@ This analysis is very surface level and depends on the movies in the dataset, we
 
 And for American movies during the war we found that each cluster was very unique and different:
 
-![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
+A | B | C
+- | - | -
+![Not found]({{ 'assets/img/soldier.jpg' | relative_url }}) | ![Not found]({{ 'assets/img/heart.jpg' | relative_url }}) | ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
-![Not found]({{ 'assets/img/heart.jpg' | relative_url }})
-
-![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
 We found that each cluster had a clear title, here the first one is about cartoons with words like: “Tom”, “Jerry”,”Donald”,”Daffy” and “Elmer”. The second one is clearly about love and family with words like: “find”,“Love”,”marriage”, “husband”,”marry”,”family” and ”meet”. The third one is clearly about war with words like: “kill”,”German”,”nazi”,”Japanese”,”death”,”men” and ”captain”.
 
@@ -72,7 +71,7 @@ We then did this analysis of topics for every cluster, for every country, before
 |   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>(unclear) |
 |   JAPAN   |   (tradition, family)<br>(unclear)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(unclear) |
 
-[1] Each cluster is in parenthesis
+[1] Each cluster is in parenthesis\\
 [2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (unclear)
 
 Here it is interesting to note that during the war most countries, besides the UK, don’t have any unclear clusters, which is not the case for clusters before and after the war. This might be the consequence of government oversight, people cannot make any type of movie that they want, they have to fit a political agenda which wants to say certain things. For Germany it is to glorify themselves and their leaders by talking about the war that they won and the upper class. 
@@ -85,10 +84,14 @@ In America they have two types of movies: the ones to distract and entertain the
 {% include youtube_embed.html id="qy_MQkaJ5WE" %}
 </div>
 
+-------
 
+<div style="text-align: center;">
 {% include lda.html max-width="200px" %}
+</div>
 
-
+War, Death, Family and Love
+---------------------------
 #### Axis countries : 
 
 **Germany:**\\
