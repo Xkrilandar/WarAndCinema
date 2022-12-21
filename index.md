@@ -67,13 +67,13 @@ We then did this analysis of topics for every cluster, for every country, before
 
 |   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
 |:-:	|:-:	|:-:	|:-:	|
-|   USA   |   (Investigation,crime)<br>(love)<br>(unclear)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
-|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:blue">WWII</span>)<br>(unclear) |
-|   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (WWII)<br>(unclear) |
-|   ITALY   |   (love,war)<br>(unclear)   |   (soldiers,religion)<br>(Family,struggle) |   (WWII)<br>(political conflict)<br>(love)(unclear) |
-|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(unclear)<br>(unclear)   |   (Nazis, war)<br>(Aviation)<br>(Dramas)<br>(unclear)<br>(unclear) |   (WWII)<br>(love)<br>(unclear) |
-|   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (WWII)<br>(unclear) |
-|   JAPAN   |   (tradition, family)<br>(unclear)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(unclear) |
+|   USA   |   (Investigation,crime)<br>(love)<br>(<span style="color:blue">unclear</span>)   |   (cartoons)<br>(war)<br>(love, family) |  (love)<br>(cartoons)<br>(fugitives,escape) |
+|   GERMANY   |   (Hitler,nationalism,nazi)<br>(investigation)  |   (prussian war)<br>(Aristocracy) |  (<span style="color:red">WWII</span>)<br>(unclear) |
+|   FRANCE   |   (WWI)<br>(crime)<br>(unclear)   |   (Marriage, love)<br>(Marriage, love) |  (<span style="color:red">WWII</span>)<br>(unclear) |
+|   ITALY   |   (love,war)<br>(<span style="color:blue">unclear</span>)   |   (soldiers,religion)<br>(Family,struggle) |   (<span style="color:red">WWII</span>)<br>(political conflict)<br>(love)(<span style="color:blue">unclear</span>) |
+|   UK   |   (fugitives, escaping, war)<br>(love,money)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>)   |   (<span style="color:red">Nazis</span>, war)<br>(Aviation)<br>(Dramas)<br>(<span style="color:blue">unclear</span>)<br>(<span style="color:blue">unclear</span>) |   (WWII)<br>(love)<br>(<span style="color:blue">unclear</span>) |
+|   USSR   |   (war,revolution)<br>(workers)<br>(WWI, Germany)<br>(workers,communism)   |   (war) |   (<span style="color:red">WWII</span>)<br>(<span style="color:blue">unclear</span>) |
+|   JAPAN   |   (tradition, family)<br>(<span style="color:blue">unclear</span>)   |   (tradition, history)<br>(industry, social status) |   (science fiction)<br>(relationships)<br>(<span style="color:blue">unclear</span>) |
 
 [1] Each cluster is in parenthesis\\
 [2] Clusters that have too many different movies, where LDA cannot extract the topics are defined by (unclear)
