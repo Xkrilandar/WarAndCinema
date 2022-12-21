@@ -49,6 +49,16 @@ Case Study : WW2
 
 ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
+|   Country  |  01.09.1929- 01.09.1939 | 01.09.1939- 02.09.1945 | 02.09.1945- 02.09.1955|
+|:-:    |:-:    |:-:    |:-:    |
+|   USA   |   (Investigation,crime)(love)(unclear)   |   (cartoons)(war)(love) |  (love)(cartoons)(fugitives,escape) |
+|   GERMANY   |   (Hitler,nationalism,nazi)(investigation)  |   (prussian war)(Artistocracy) |  (WWII)(unclear) |
+|   FRANCE   |   (WWI)(crime)(unclear)   |   (Marriage, love)(Marriage, love) |  (WWII)(unclear) |
+|   ITALY   |   (love,war)(unclear)   |   (soldiers,religion)(Family,struggle) |   (WWII)(political conflict)(love)(unclear) |
+|   UK   |   (fugitives, escaping, war)(love,money)(unclear)(unclear)   |   (Nazis, war)(Aviation)(Dramas)(unclear)(unclear) |   (WWII)(love)(unclear) |
+|   USSR   |   (war,revolution)(workers)(WWI, Germany)(workers,communism)   |   (war) |   (WWII)(unclear) |
+|   JAPAN   |   (tradition, family)(unclear)   |   (tradition, history)(industry, social status) |   (science fiction)(relationships)(unclear) |
+
 
 
 {% include lda.html max-width="200px" %}
