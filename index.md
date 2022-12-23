@@ -165,12 +165,8 @@ In France, there is no war cluster, only love and family. This highlights the po
 10 years after the war, we can say that a larger variety of films come out, as the LDA method has more trouble extracting topics. Except for the topic of WWII, which is present in all European countries. This makes sense as the citizens that suffered the war are mostly European. American citizens didn’t see what happened in the continent and therefore didn’t feel the same need to represent it. Whilst the Japanese didn’t suffer the war in the same way, their traumatic experience was the atomic bomb, which they represented via science fiction and Godzilla. 
 
 > “The earlier Godzilla films, especially the original, portrayed Godzilla as a frightening nuclear-spawned monster. Godzilla represented the fears that many Japanese held about the atomic bombings of Hiroshima and Nagasaki and the possibility of recurrence.”
+**Wikipedia page for [Godzilla](https://en.wikipedia.org/wiki/Godzilla)**
 
-<style>body {text-align: right}</style>
-
-Wikipedia page for [Godzilla](https://en.wikipedia.org/wiki/Godzilla)
-
-<style>body {text-align: justify}</style>
 
 
 After this in depth look into World War Two, we realized that this was a war which was mostly favorably depicted in movies during the war as it was used as a tool for propaganda. We therefore wondered how movies were affected by the Vietnam war, as it is known for a rise of anti-war sentiment with the "Make love, not war" movement. We wondered whether we would be able to recognize these characteristics in the movies made around that time. Did the movie industry reflect these sentiments ?
