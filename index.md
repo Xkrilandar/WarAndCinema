@@ -116,7 +116,7 @@ It is interesting to note that the topics remain relatively constant, except for
 
 ### Communities detection for WWII
 
-We felt that this topic analysis had some interesting trends, but was hard to analyze, we therefore decided to do some topic analysis using the LDA method (Latent Dirichlet Allocation) for each country before, during and after the war. 
+We felt that this topic analysis had some interesting trends, but was hard to analyze, so we therefore decided to do some topic analysis using the LDA method (Latent Dirichlet Allocation) for each country before, during and after the war, hoping it would bring more in-depth results. 
 
 {% include lda_american.html%}
 
