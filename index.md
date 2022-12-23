@@ -236,7 +236,7 @@ As we can see, American movies did not discuss Vietnam at all before the war. We
 We now do topic analysis on the American movies that include the word "Vietnam'' in the summary.
 
 |Topic           |Normalized frequency |
-|:---------------|:--------------------|
+|:---------------|:-------------------:|
 |negative_emotion|0.007                |
 |war             |0.007                |
 |family          |0.006                |
