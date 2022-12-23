@@ -10,16 +10,16 @@ Wars impact not only the people who experience them, but also the culture as a w
 
 ![]({{ 'assets/img/vietnamcamera.jpg' | relative_url }})
 
+##### War films in cinema...
+
 During wartime, it is common for filmmakers to produce war-themed films that explore the experiences of soldiers, civilians, and others directly affected by the conflict. These films may focus on the heroism and sacrifice of soldiers, the atrocities and suffering of war, or the psychological effects of combat on individuals and families.
 
 After wars are over, filmmakers may continue to produce war-themed films that explore the long-term effects of conflict on society, or that revisit the events of war from a historical perspective. These films may take a more critical view of the war, examining its causes, consequences and legacy.
 
-### War films in cinema...
-
-War films never had such a large share of film production as during World War II.\\
-**From 1939 to 1945 roughly 10 % of films were War Films.**\\
 Let's have a look on the proportion of war films over the years:\\
 ![Not found]({{ 'assets/img/WarFilmsByYear.png' | relative_url }})
+War films never had such a large share of film production as during World War II.\\
+**From 1939 to 1945 roughly 10 % of films were War Films.**
 
 To better illustrate the impact of war, we zoom in on two wars: World War II and the Vietnam War.
 
