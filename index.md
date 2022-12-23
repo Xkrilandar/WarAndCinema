@@ -54,12 +54,10 @@ Also interesting is the fact that the general sentiment of films is a bit more _
 
 
 
+Let's do topic analysis
+-----------------------
 
-## Let's do topic analysis
-
-War, death, family and love...
------------
-
+##### War, death, family and love...
 #### Axis countries
 
 ##### Germany
