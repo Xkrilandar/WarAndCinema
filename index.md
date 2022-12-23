@@ -238,8 +238,6 @@ We can see that 77% of movies that include the word "Vietnam" in the summary als
 
 Take home message
 -----------------
-
-War has had a significant impact on film, both in terms of the themes and genres of films produced, as well as the general feeling and perspective on war that is portrayed in these films. In our analysis, we have found that all countries’ movie industries do not react the same to a war. In some countries, like in the USSR during the Vietnam War, war films are extremely prevalent. In others, like France during the occupation that began in 1940, films almost only handle topics like romance and family and do not discuss the war. This can often be traced back to the political context of the country at that time. 
-
-
+War has had a significant impact on film, both in terms of the themes and genres of films produced, as well as the general feeling and perspective on war that is portrayed in these films. In our analysis, we have found that all countries’ movie industries do not react the same to a war. In some countries, like in the USSR during the Vietnam War, war films are extremely prevalent. In others, like France during the occupation that began in 1940, films almost only handle topics like romance and family and do not discuss the war. This can often be traced back to the political context of the country at that time.
+However, the dataset that we used was very biased towards American movies. For a more complete analysis, it would be interesting to look at a more complete dataset that includes more international movies.
 
