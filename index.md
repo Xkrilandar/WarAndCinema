@@ -4,11 +4,6 @@ title: War impact on cinema
 subtitle: Looking at wars through the lens of cinema
 ---
 
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-
 <style>body {text-align: justify}</style>
 
 Wars impact not only the people who experience them, but also the culture as a whole. Using film metadata sets extracted from Wikipedia and Freebase, we explore the impact of war on film. **What is the impact of war on film production? How does each country show the war? Or doesn't show it?**
@@ -170,19 +165,6 @@ Also interesting is the fact that the general sentiment of films is a bit more _
 ![Not found]({{ 'assets/img/winlose2.png' | relative_url }})
 
 
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-<div class="slide1">
-  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
-  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
-  <div><img src="assets/img/winlose1.png" alt="Image 1"></div>
-</div>
-  
-<script type="text/javascript">
-  $(document).ready(function(){
-    $('.slide1').slick();
-  });
-</script>
 
 
 
@@ -213,34 +195,34 @@ This allows us to conclude that in the USA particularly, **anti-war movies are a
 We now perform topic analysis on American anti-war films that were released around the time of the Vietnam War.
 
 |Topic           |Normalized frequency |
-|:---------------|:--------------------|
-|military        |0.015220979277461948 |
-|war             |0.013570511644966074 |
-|weapon          |0.012836970474967908 |
-|fight           |0.009352649917476618 |
-|kill            |0.00715202640748212  |
-|leader          |0.00715202640748212  |
-|negative_emotion|0.00715202640748212  |
-|crime           |0.0060517146524848705|
-|death           |0.005684944067485788 |
-|prison          |0.005501558774986246 |
+|:---------------|:-------------------:|
+|military        |0.015                |
+|war             |0.013                |
+|weapon          |0.012                |
+|fight           |0.009                |
+|kill            |0.007                |
+|leader          |0.007                |
+|negative_emotion|0.007                |
+|crime           |0.006                |
+|death           |0.005                |
+|prison          |0.005                |
 
 The above are the ten most prevalent topics in anti-war films in America during the Vietnam War. From this, we can see that these movies generally used the angle of showing how terrible and brutal wars are, as opposed to, for example, showing a utopian peace time as a form of critique of war.
 
 We now perform the same topic analysis on war films.
 
 |Topic           |Normalized frequency |
-|:---------------|:--------------------|
-|military        |0.012595477421389684 |
-|war             |0.012348641717976496 |
-|fight           |0.009976276346283066 |
-|leader          |0.007905599056539089 |
-|weapon          |0.007357075271176446 |
-|negative_emotion|0.006979965168739629 |
-|kill            |0.005697790820454452 |
-|family          |0.005601799158015989 |
-|children        |0.005306967623383569 |
-|death           |0.005121840845823677 |
+|:---------------|:-------------------:|
+|military        |0.012                |
+|war             |0.012                |
+|fight           |0.009                |
+|leader          |0.007                |
+|weapon          |0.007                |
+|negative_emotion|0.006                |
+|kill            |0.005                |
+|family          |0.005                |
+|children        |0.005                |
+|death           |0.005                |
 
 These are practically the same topics, however, they do also include "family" and "children" as topics.
 
@@ -255,16 +237,16 @@ We now do topic analysis on the American movies that include the word "Vietnam''
 
 |Topic           |Normalized frequency |
 |:---------------|:--------------------|
-|negative_emotion|0.0075360372587396605|
-|war             |0.007486035115790677 |
-|family          |0.006978870523022415 |
-|fight           |0.006821720930897038 |
-|children        |0.006578853379430547 |
-|crime           |0.00642170378730517  |
-|military        |0.006414560624026744 |
-|death           |0.00577881909224681  | 
-|home            |0.00536451562209809  |
-|traveling       |0.005350229295541237 |
+|negative_emotion|0.007                |
+|war             |0.007                |
+|family          |0.006                |
+|fight           |0.006                |
+|children        |0.006                |
+|crime           |0.006                |
+|military        |0.006                |
+|death           |0.005                | 
+|home            |0.005                |
+|traveling       |0.005                |
 
 From these topics, we can see that war and violence are major topics in American movies that somehow include Vietnam. Finally, we count the percentage of American movies that include the words "vietnam" and "war".
 We can see that 77% of movies that include the word "Vietnam" in the summary also include the word "war" in the summary. This, along with the above topic analysis, shows us that American movies that somehow discuss Vietnam usually also discuss war, and probably discusses the Vietnam War. Similarly, of all American movies that include the word "Germany", 84% also include the word "war" or the word "nazi".
