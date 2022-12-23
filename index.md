@@ -53,12 +53,7 @@ Here is LDA of America during the war:
 {% include lda_american.html%}
 
 
-This is hard to read and to find actual relevant topics as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found for American movies during the war:
-
-
-![Not found]({{ 'assets/img/main.jpg' | relative_url }})
-
-And for American movies during the war we found that each cluster was very unique and different:
+This is hard to read and to find actual relevant topics as a wide variety of movies are produced in each country and any underlying topic is hard to isolate with this method. We therefore decided to do LDA on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally using LDA we could analyze each cluster and found for American movies during the war :
 
 ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
