@@ -33,8 +33,19 @@ Case Study : WW2
 
 **Recap :** [World War II](https://en.wikipedia.org/wiki/World_War_II) lasted from 1 September 1939 to 2 September 1945. The main participants were the USA, the UK, France, Germany, Japan, Italy and the URSS. Note that the USA joined the war only in 1941. It was the largest war in history, and therefore had a strong and lasting impact on culture, including the movie industry.
 
-
 ![Not found]({{ 'assets/img/debarquement.jpg' | relative_url }})
+
+We wanted to find out what types of movies the different countries produced during WW2 and if they were different from the movies they produced before or after. 
+
+The first thing we noticed was the number of movies:
+
+![Not found]({{ 'assets/img/8graphs.jpg' | relative_url }})
+
+If we look at the number of movies produced in each belligerent country, we notice that most countries produced less movies during the war, with the movie production declining and reaching a low point in 1945. But for some countries like Italy, Germany, or the USA their movie production actually goes up a bit at the start of the war, with 1942 being the year with the most movies produced for the USA in this time period. We can also notice that after the war Italy, Japan and France really increased their film production, maybe suggesting an economic or cultural boom
+.
+We can see here different behaviors for each country. A war takes a lot of resources, and industries that are considered non-essential often see their production strictly decline. The fact that a country’s film production doesn’t decrease and even increases for Italy and the USA reveals that these countries invested in their movie industry and considered it essential. Indeed, they can be fairly important for morale. Nonetheless, they are still considered as less important than tanks and weapons for all the other countries, as their film production decreases.
+
+This analysis is very surface level and is very sensitive to the bias of the dataset, so we must take these observations with a grain of salt. To have more generalized results that don’t depend on the number of movies, but on the types of movies produced.
 
 Let's do sentiment analysis...
 -----------------------------
@@ -103,20 +114,13 @@ The war topic gains in popularity during the war for the english films.
 It is interesting to note that the topics remain relatively constant, except for 1943 which sees a little increase in war films. This makes sense as the USA joined the war in 1941 and a movie takes some time to produce.
 
 
-#### Communities detection for WWII
+### Communities detection for WWII
 
-We wanted to find out what types of movies the different countries produced during WW2 and if they were different from the movies they produced before or after. 
+We felt that this topic analysis had some interesting trends, but was hard to analyze, we therefore decided to do some topic analysis using the LDA method (Latent Dirichlet Allocation) for each country before, during and after the war. 
 
-The first thing we noticed was the number of movies:
+{% include lda_american.html%}
 
-![Not found]({{ 'assets/img/8graphs.jpg' | relative_url }})
 
-If we look at the number of movies produced in each belligerent country, we notice that most countries produced less movies during the war, with the movie production declining and reaching a low point in 1945. But for some countries like Italy, Germany, or the USA their movie production actually goes up a bit at the start of the war, with 1942 being the year with the most movies produced for the USA in this time period. We can also notice that after the war Italy, Japan and France really increased their film production, maybe suggesting an economic or cultural boom
-.
-We can see here different behaviors for each country. A war takes a lot of resources, and industries that are considered non-essential often see their production strictly decline. The fact that a country’s film production doesn’t decrease and even increases for Italy and the USA reveals that these countries invested in their movie industry and considered it essential. Indeed, they can be fairly important for morale. Nonetheless, they are still considered as less important than tanks and weapons for all the other countries, as their film production decreases.
-
-This analysis is very surface level and is very sensitive to the bias of the dataset, so we must take these observations with a grain of salt. To have more generalized results that don’t depend on the number of movies, but on the subjects in the movies, we decided to do some topic analysis using the LDA method (Latent Dirichlet Allocation) for each country before, during and after the war. 
-% include lda_american.html%}
 This is hard to analyze as the LDA method often has trouble creating coherent clusters and you have to set how many clusters are present in each country’s film production. . We therefore decided to use the LDA method on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using the spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally, using the LDA method, we could analyze each cluster and found this for clusters of American movies during the war:
 
 ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
