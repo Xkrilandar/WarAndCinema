@@ -54,19 +54,19 @@ Also interesting is the fact that the general sentiment of films is a bit more _
 
 
 
-After this in depth look into World War Two, we realized that this was a war which was mostly favorably depicted in movies during the war as it was used as a tool for propaganda. We therefore wondered how movies were affected by the Vietnam war, as it is known for a rise of anti-war sentiment with the "Make love, not war" movement. We wondered whether we would be able to recognize these characteristics in the movies made around that time. Did the movie industry reflect these sentiments ?
 
 ## Let's do topic analysis
--------------------------
+
 War, death, family and love...
-------------------------------
+-----------
+
 #### Axis countries
 
 ##### Germany
 ![Not found]({{ 'assets/img/topicgermany.jpg' | relative_url }})
 **War, death and family are recurring topics in films produced in post-war Germany**.\\
 During the war and the pre-war period it was mostly family that was a recurrent topic.\\
-Love does not seem to be a recurring topic in German films.\\
+Love does not seem to be a recurring topic in German films.
 
 
 ##### Italy
@@ -74,13 +74,13 @@ Love does not seem to be a recurring topic in German films.\\
 **Unsurprisingly, family was an important topic in Italy until the fall of fascism.**\\
 The peaks in love and death topics in the pre-war period are most likely over representation due to the small number of films.\\
 Death is a more recurrent topic in Italian films during the war than it was in German films.\\
-On the other hand, war is a less recurrent topic in post-war Italian films than it was for post-war german films.\\
+On the other hand, war is a less recurrent topic in post-war Italian films than it was for post-war german films.
 
 
 ##### Japan
 ![Not found]({{ 'assets/img/topicjapan.jpg' | relative_url }})
 **The topic of family is an important topic even after the war in Japanese films.**\\
-As with German films, love is not a recurring topic in Japanese films.\\
+As with German films, love is not a recurring topic in Japanese films.
 
 
 
@@ -97,12 +97,13 @@ What is interesting is that in 1940, there was a shift of topics in French films
 
 ![Not found]({{ 'assets/img/topicuk.jpg' | relative_url }})
 **Family and death are recurring topics in English films.**\\
-The war topic gains in popularity during the war for the english films.\\
+The war topic gains in popularity during the war for the english films.
 
 ##### United States of America
 ![Not found]({{ 'assets/img/topicusa.jpg' | relative_url }})
 
 It is interesting to note that the topics remain relatively constant, except for 1943 which sees a little increase in war films. This makes sense as the USA joined the war in 1941 and a movie takes some time to produce.
+
 
 #### Communities detection for WWII
 
@@ -120,14 +121,11 @@ This analysis is very surface level and is very sensitive to the bias of the dat
 % include lda_american.html%}
 This is hard to analyze as the LDA method often has trouble creating coherent clusters and you have to set how many clusters are present in each country’s film production. . We therefore decided to use the LDA method on clusters of movies based on their similarity. To cluster the movies, we linked each movie to every other movie whose plot summary was similar (using the spaCy’s similarity metric). We then used the Louvain method to find clusters. Finally, using the LDA method, we could analyze each cluster and found this for clusters of American movies during the war:
 
-
-
 ![Not found]({{ 'assets/img/mickey.jpg' | relative_url }})
 
 ![Not found]({{ 'assets/img/heart.jpg' | relative_url }})
 
 ![Not found]({{ 'assets/img/soldier.jpg' | relative_url }})
-
 
 We found that each cluster had a clear topic, here the first one is about **cartoons** because the most frequent words in the cluster are: “Tom”, “Jerry”, ”Donald”, ”Daffy” and “Elmer”.\\
 The second one is clearly about **love and family** with words like: “find”, “Love”, ”marriage”, “husband”, ”marry”, ”family” and ”meet”.\\
@@ -168,6 +166,7 @@ Wikipedia page for [Godzilla](https://en.wikipedia.org/wiki/Godzilla)
 
 
 
+After this in depth look into World War Two, we realized that this was a war which was mostly favorably depicted in movies during the war as it was used as a tool for propaganda. We therefore wondered how movies were affected by the Vietnam war, as it is known for a rise of anti-war sentiment with the "Make love, not war" movement. We wondered whether we would be able to recognize these characteristics in the movies made around that time. Did the movie industry reflect these sentiments ?
 
 
 
