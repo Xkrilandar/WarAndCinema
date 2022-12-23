@@ -41,11 +41,11 @@ The first thing we noticed was the number of movies:
 
 ![Not found]({{ 'assets/img/8graphs.jpg' | relative_url }})
 
-If we look at the number of movies produced in each belligerent country, we notice that most countries produced less movies during the war, with the movie production declining and reaching a low point in 1945. But for some countries like Italy, Germany, or the USA their movie production actually goes up a bit at the start of the war, with 1942 being the year with the most movies produced for the USA in this time period. We can also notice that after the war Italy, Japan and France really increased their film production, maybe suggesting an economic or cultural boom
-.
+If we look at the number of movies produced in each belligerent country, we notice that most countries produced less movies during the war, with the movie production declining and reaching a low point in 1945. But for some countries like Italy, Germany, or the USA their movie production actually goes up a bit at the start of the war, with 1942 being the year with the most movies produced for the USA in this time period. We can also notice that after the war Italy, Japan and France really increased their film production, maybe suggesting an economic or cultural boom.
+
 We can see here different behaviors for each country. A war takes a lot of resources, and industries that are considered non-essential often see their production strictly decline. The fact that a country’s film production doesn’t decrease and even increases for Italy and the USA reveals that these countries invested in their movie industry and considered it essential. Indeed, they can be fairly important for morale. Nonetheless, they are still considered as less important than tanks and weapons for all the other countries, as their film production decreases.
 
-This analysis is very surface level and is very sensitive to the bias of the dataset, so we must take these observations with a grain of salt. To have more generalized results that don’t depend on the number of movies, but on the types of movies produced.
+This analysis is very surface level and is very sensitive to the bias of the dataset, as it only compares the number of films, so we must take these observations with a grain of salt. We're gonna do more in depth analysis for the next experiments that explores the types of movies produced.
 
 Let's do sentiment analysis...
 -----------------------------
